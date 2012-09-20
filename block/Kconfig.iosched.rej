@@ -1,0 +1,10 @@
+--- block/Kconfig.iosched
++++ block/Kconfig.iosched
+@@ -91,6 +116,7 @@
+ 	default "anticipatory" if DEFAULT_AS
+ 	default "deadline" if DEFAULT_DEADLINE
+ 	default "cfq" if DEFAULT_CFQ
++	default "bfq" if DEFAULT_BFQ
+ 	default "noop" if DEFAULT_NOOP
+ 
+ endmenu
