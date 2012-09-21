@@ -1,0 +1,1 @@
+cmd_drivers/misc/pmem_kernel_test.ko := /home/jsega/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/jsega/KernelSEGA/kernel/scripts/module-common.lds --build-id -o drivers/misc/pmem_kernel_test.ko drivers/misc/pmem_kernel_test.o drivers/misc/pmem_kernel_test.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/msm/mddi_nt_panels/built-in.o :=  /home/jsega/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/video/msm/mddi_nt_panels/built-in.o drivers/video/msm/mddi_nt_panels/mddi_nt_sharp_ls042t3lx.o drivers/video/msm/mddi_nt_panels/mddi_nt_sony_acx427ak.o 
