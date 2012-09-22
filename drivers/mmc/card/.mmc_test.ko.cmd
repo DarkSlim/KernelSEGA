@@ -1,1 +1,0 @@
-cmd_drivers/mmc/card/mmc_test.ko := /home/jsega/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/jsega/KernelSEGA/kernel/scripts/module-common.lds --build-id -o drivers/mmc/card/mmc_test.ko drivers/mmc/card/mmc_test.o drivers/mmc/card/mmc_test.mod.o
