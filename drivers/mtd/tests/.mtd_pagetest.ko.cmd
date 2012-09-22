@@ -1,1 +1,0 @@
-cmd_drivers/mtd/tests/mtd_pagetest.ko := /home/jsega/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/jsega/KernelSEGA/kernel/scripts/module-common.lds --build-id -o drivers/mtd/tests/mtd_pagetest.ko drivers/mtd/tests/mtd_pagetest.o drivers/mtd/tests/mtd_pagetest.mod.o
